@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+}
+
+.App {
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+
+.digits {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: row;
+    height: 33vh;
+    width: 100vw;
+}
+
+.digits h1 {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20vw;
+    color: green;
+    background-color: black;
+    margin: 1vw 2vw 2vw 2vw;
+    height: 35vh;
+    width: 35vw;
+}
+
+.buttons {}
+
+.buttons button {
+    padding: 1rem;
+    margin: 5rem 2rem 5rem 2rem;
+    background-color: black;
+    color: green;
+    border-radius: 50px;
+}
