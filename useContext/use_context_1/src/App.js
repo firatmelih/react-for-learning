@@ -20,9 +20,10 @@ function App() {
   );
 
     return (
-      <UserContext.Provider value={changeColor}>
+      // data is getting hooked at UserContext.Provider, and will be usen with useContext in UserList, but shouldnt be forgotten! must declare UserContext.
+      <UserContext.Provider value={{users, changeColor}}>
         <div className="App">
-            <UserList users={users} changeColor={changeColor} />
+            <UserList />
         </div>
       </UserContext.Provider>
     

@@ -3,7 +3,7 @@ import {UserContext} from './contexts/UserContext'
 
 const User = ({user}) =>
 {
-    const change = useContext(UserContext)
+    const context = useContext(UserContext)
     return(
         <div style={{background:user.color}}>
             <h2>{user.name}</h2>
@@ -12,7 +12,7 @@ const User = ({user}) =>
             
             <input
             value={user.color}
-            onChange={e=>change(user.id, e.target.value)}
+            onChange={e=>context.changeColor(user.id, e.target.value)}
             />
         </div>
     )
