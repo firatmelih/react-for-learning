@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import {useState} from 'react'
 import UserList from './UserList'
 import './App.css';
@@ -20,7 +20,7 @@ function App() {
   );
 
     return (
-      <UserContext.Provider value="Value">
+      <UserContext.Provider value={changeColor}>
         <div className="App">
             <UserList users={users} changeColor={changeColor} />
         </div>

@@ -1,12 +1,11 @@
 import React from 'react'
 import User from './User'
-
-const UserList = ({users, changeColor}) =>
+const UserList = ({users}) =>
 {
     return(
         <div>
             {users.map(user =>(
-                <User key={users.name} user={user} changeColor={changeColor} />
+                <User key={user.name} user={user}  />
             ))}
         </div>
     )
