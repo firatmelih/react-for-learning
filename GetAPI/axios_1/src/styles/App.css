@@ -1,0 +1,38 @@
+body {
+  background-color: gray;
+}
+
+.App {
+  text-align: center;
+}
+
+.App input {
+  margin: 2rem;
+  width: 50%;
+  height: 55px;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 50px;
+}
+
+.App h1 {
+  color: #fff;
+  font-size: 5vw;
+}
+
+.App img {
+  height: 15vw;
+}
+
+.App h2 {
+  color: #fafafa;
+  font-size: 2vw;
+}
+
+.App .Countries {
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 16vw 0 16vw;
+}
