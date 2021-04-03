@@ -6,8 +6,8 @@
 
 <img  src=https://cdn.discordapp.com/attachments/750658674078253158/819180229926715422/react.png  width="200px"  align="left">
 
-<p align="left">React, PHP ile yazılmış **Facebook** 'un mimari eksikliklerinden ortaya çıkmış,Interaktif mimari sunan bir **JavaScript** kütüphanesidir. 
-2012 yılında Facebook'un **Instagram**'ı satın almasından sonra Facebook, Instagram'ın sadece mobil uygulaması değil ayrıca bir websitesi olmasını da istemiştir. Instagram ekibindeki yazılımcıların Facebook'un yazılımlarını örnek almaları ve bu mimari ile Instagram'ı yazmaları istenmişti. </p>
+<p align="left">React, PHP ile yazılmış *Facebook* 'un mimari eksikliklerinden ortaya çıkmış,Interaktif mimari sunan bir *JavaScript* kütüphanesidir. 
+2012 yılında Facebook'un *Instagram*'ı satın almasından sonra Facebook, Instagram'ın sadece mobil uygulaması değil ayrıca bir websitesi olmasını da istemiştir. Instagram ekibindeki yazılımcıların Facebook'un yazılımlarını örnek almaları ve bu mimari ile Instagram'ı yazmaları istenmişti. </p>
 Bu mimari 2013 yılında ise JavaScript kütüphanesi olarak 2013 yılında **açık kaynak** olarak herkese sunuldu.
 <hr>
  
