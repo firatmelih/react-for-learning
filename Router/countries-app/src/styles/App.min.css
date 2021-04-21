@@ -1,0 +1,187 @@
+html {
+
+    font-family: sans-serif;
+    background-color: rgb(181, 228, 183);
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.App {
+    background-color: rgb(181, 228, 183);
+    text-align: center;
+    margin: 0;
+    padding: 0 150px 0 150px;
+
+}
+
+
+input {
+    width: 25%;
+    font-size: 2vw;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #d8d8d8;
+}
+
+.App h1 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.App ul {
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(5px, auto);
+    justify-content: space-between;
+    width: 100%;
+
+    text-align: center;
+    background-color: rgb(69, 112, 69);
+}
+
+.App ul:hover {
+    background-color: rgb(53, 83, 53);
+}
+
+li {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: black solid 1px;
+
+}
+
+li h2 {
+    color: white;
+    font-size: 45px;
+}
+
+li img {
+    height: 100px;
+    width: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    color: white;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-color: rgb(112, 145, 113);
+    }
+
+    .App {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 12;
+        padding: 12;
+    }
+
+
+    input {
+        width: 100%;
+        height: 150px;
+        font-size: 50px
+    }
+
+    .App h1 {
+        color: #fff;
+        font-size: 15vw;
+    }
+
+    .App ul {
+
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(5px, auto);
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgb(69, 112, 69);
+    }
+
+    li {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: black solid 1px;
+
+    }
+
+    li h2 {
+        color: white;
+        font-size: 45px;
+    }
+
+    li img {
+        height: 50px;
+        width: auto;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        color: white;
+        width: 100%;
+    }
+
+}
+
+
+.countryInfo {
+    border: 1px solid white;
+    margin-top: 55px;
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+}
+
+.countryInfo img {
+    height: auto;
+    width: 35%;
+}
+
+.countryInfo h2 {
+    color: white;
+
+}
