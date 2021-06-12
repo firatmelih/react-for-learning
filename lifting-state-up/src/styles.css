@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+}
+
+.country {
+  display: flex;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+.country div:first-child {
+  width: 100px;
+  margin: 0 10px 0 0;
+}
+
+.country div:first-child img {
+  width: 100%;
+}
+
+.country div:last-child h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.country div:last-child p {
+  font-size: 14px;
+}
